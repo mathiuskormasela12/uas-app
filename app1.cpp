@@ -47,9 +47,9 @@ int main () {
 		untuk mencari banyak nilai dari 
 		sebuah array
 	*/
-	total=0;
-	for(i=0; i<=2; i++) {
-		for(j=0; j<=4; j++) {
+	total = 0;
+	for(i = 0; i <= 2; i++) {
+		for(j= 0; j <= 4; j++) {
 			if(X[i][j] == max) {
 				total=total+1;
 			}
