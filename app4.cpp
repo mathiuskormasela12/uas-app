@@ -33,8 +33,8 @@ int main() {
 	Rectangle RectangleOne;
 	Triangle TriangleOne;
 
-	RectangleOne.set_values(20, 10);
-	TriangleOne.set_values(2, 5);
+	RectangleOne.set_values(10, 5);
+	TriangleOne.set_values(10, 1);
 	
 	cout << "The wide of Rectangle is " << RectangleOne.wide() << endl;
 	cout << "The wide of Triangle is " << TriangleOne.wide() << endl;
