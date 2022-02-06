@@ -56,12 +56,12 @@ int main () {
 		}
 	}				
 				
-	cout<<"Nilai Array Terbesar : "<<max<<endl;
-	cout<<"Jumlah Array Ada : "<<total<<endl;
+	cout<<"The max array value is : "<<max<<endl;
+	cout<<"Count of array is : "<<total<<endl;
 		
 	flag=0;
 
-	cout<<"Input periksa nilai  : ";
+	cout<<"Input the value  : ";
 	cin>>n;
 
 	for(i = 0; i <= 2; i++) {

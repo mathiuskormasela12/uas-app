@@ -36,6 +36,6 @@ int main() {
 	RectangleOne.set_values(20, 10);
 	TriangleOne.set_values(2, 5);
 	
-	cout << "Luas Persegi Panjang adalah " << RectangleOne.wide() << endl;
-	cout << "Luas Segitiga adalah " << TriangleOne.wide() << endl;
+	cout << "The wide of Rectangle is " << RectangleOne.wide() << endl;
+	cout << "The wide of Triangle is " << TriangleOne.wide() << endl;
 }

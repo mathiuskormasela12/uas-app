@@ -14,7 +14,7 @@ int main () {
 	int x;
 	int result = 0;
 	
-	cout<<"Masukan angka >10 : ";
+	cout<<"Input number  greater than 10 : ";
 	cin>>n;
 	
 	if(n > 10) {
@@ -23,16 +23,16 @@ int main () {
 				x = i + 1;
 			}
 
-			cout<<"nilai indeks ke ["<<i<<"]= "<<x;
+			cout<<"the index of value ["<<i<<"]= "<<x;
 			result = result + x;
 			cout<<endl;
 		}
 	} else {
-		cout<<"Data tidak sesuai";
+		cout<<"The data is not match";
 	}
 	
 	cout<<"===================================================="<<endl;
-	cout<<"Jumlah TANPA Fungsi Rekursif : "<<result<<endl;
+	cout<<"Result without recursive function : "<<result<<endl;
 	result = sum(x);
-	cout<<"Jumlah Menggunakan Fungsi Rekursif: "<<result;
+	cout<<"Result with recursive function : "<<result;
 }
